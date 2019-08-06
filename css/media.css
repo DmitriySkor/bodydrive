@@ -1,0 +1,760 @@
+/*Медиазапросы диапазонные*/
+@media (min-width: 1367px) and (max-width: 1600px) {
+    .reviews {
+        background-position: calc(50% + 355px) calc(100% - -115px);
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+    .reviews {
+        background-position: calc(50% + 300px) calc(100% - -115px);
+    }
+
+    .human {
+        right: -45px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .human {
+        right: -32px;
+    }
+
+    .section_slogan_text {
+        font-size: 29px;
+    }
+
+    .course_description_text p{
+        font-size: 23px;
+    }
+
+    .course_medical_wrap{
+        margin-top: 0;
+    }
+
+    .gymnastiks_section{
+        background-position: 123%;
+    }
+
+    .gymnastiks_section_list{
+        justify-content: flex-start;
+    }
+
+    /*---TEAM-PAGE---*/
+    .coach_name{
+        font-size: 27px;
+    }
+
+    .coach_position{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .reviews_wrap {
+        width: calc(50% - 30px);
+    }
+
+    .reviews_forms {
+        width: 100%;
+    }
+
+    .menu-mobile .toggle-button {
+        right: 26px;
+    }
+
+    .cost_proposal_wrap {
+        width: auto;
+    }
+
+    .first_section_content{
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        margin-top: 25px;
+        position: relative;
+        margin-left: 20px;
+    }
+
+    .section_slogan_text{
+        font-size: 24px;
+    }
+
+    .human{
+        position: absolute;
+        right: -38px;
+        top: -20px;
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+    }
+
+    .first_section_autor {
+        max-width: 245px;
+    }
+
+    .body_course_pic img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .course_description_text p{
+      font-size: 18px;
+    }
+
+    .course_medical_wrap{
+        padding-left: 8px;
+        padding-top: 18px;
+        margin-top: 0;
+    }
+
+    .justification_title p{
+        margin-left: 12px;
+        font-size: 15px;
+    }
+
+    .justification-arrow{
+        right: 14px;
+    }
+
+    .body_course_description{
+        background-position: -24% 50%;
+    }
+
+    .gymnastiks_section{
+        margin-top: 60px;
+        background-image:none;
+        padding-bottom: 40px;
+    }
+
+    .gymnastiks_skeleton > img {
+        bottom: -8px;
+        width: 100%;
+        max-width: 896px;
+        opacity: 0.3;
+    }
+
+    .gymnastiks_item_text{
+        font-weight: 400;
+    }
+
+    .coach{
+        max-width: 100%;
+        padding: 25px 60px;
+    }
+
+    /*---Price page---*/
+    .price_page_table {
+        padding-top: 285px;
+    }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .main_header{
+        margin-bottom: 20px;
+    }
+
+    .first_section_content{
+        width: 100%;
+        max-width: 332px;
+        height: auto;
+        margin-top: 25px;
+        position: relative;
+        margin-left: 20px;
+    }
+
+    .section_slogan_text{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .human{
+        position: absolute;
+        right: -27px;
+        top: 0;
+        width: 100%;
+        max-width: 268px;
+        height: auto;
+    }
+
+    .first_section_autor {
+        max-width: 245px;
+    }
+
+    .cost_proposal_wrap{
+        top:-180px;
+    }
+
+    .toggle-button{
+        top: 36px;
+        right: 58px;
+    }
+
+    .body_course_left{
+        display: none;
+    }
+
+    .body_course_description{
+        background: none;
+    }
+
+    .course_description_text{
+        margin-top: 75px;
+    }
+
+    .gymnastiks_section{
+        margin-top: 60px;
+        background: none;
+    }
+
+    .gymnastiks_section_item{
+        width: 246px;
+    }
+
+    .gymnastiks_skeleton > img{
+        bottom: -125px;
+        width: 75%;
+    }
+
+    .advantages_item{
+        align-items: center;
+        max-width: 220px;
+    }
+
+    .reviews_wrap{
+        width: 100%;
+    }
+
+    .reviews_forms{
+    width: 100%;
+    }
+
+    .white_button{
+        margin-top: 15px;
+    }
+
+    .main_header{
+        padding-top: 15px;
+    }
+
+    .copyright_right_colum{
+        justify-content: center;
+    }
+
+    .review_items_name img{
+        margin-right: 0;
+    }
+
+    .review_items_name img{
+        margin-right: 0px;
+    }
+
+    .review_name{
+        margin-left: 15px;
+    }
+
+    /*---TEAM-PAGE---*/
+    .team_title_section_wrap{
+        min-height: 250px;
+        background-position: 50% 127px;
+    }
+
+    .other_team {
+        margin-top: 275px;
+    }
+
+    .coach{
+        max-width: 100%;
+        padding: 25px 60px;
+    }
+
+    /*---PRICE-PAGE---*/
+    .price_title {
+        margin-top: 45px;
+    }
+
+    .price_wrap {
+        background-position: 50% 75px;
+    }
+
+    .price_page_table {
+        padding-top: 360px;
+    }
+}
+
+
+@media (min-width: 480px) and (max-width: 575px) {
+
+    .main_header{
+        margin-bottom: 20px;
+    }
+
+    .first_section_content{
+        width: 100%;
+        max-width: 100%;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    .section_slogan_text{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .human{
+        display: none;
+    }
+
+    .first_section_autor {
+        max-width: 245px;
+    }
+
+    .cost_proposal_wrap{
+        top:-180px;
+    }
+
+    .cost_proposal_content{
+        max-width: 100%;
+    }
+
+    .toggle-button{
+        top: 36px;
+        right: 40px;
+        z-index: 150;
+    }
+
+    .body_course_left{
+        display: none;
+    }
+
+    .body_course_description{
+        background: none;
+    }
+
+    .course_description_text{
+        margin-top: 180px;
+    }
+
+    .course_description_text p{
+        font-size: 20px;
+    }
+
+    .gymnastiks_section{
+        margin-top: 60px;
+        background: none;
+    }
+
+    .gymnastiks_section_item{
+        width: 100%;
+        max-width: 70%;
+        justify-content: center;
+    }
+
+    .gymnastiks_skeleton > img{
+        bottom: -125px;
+        width: 75%;
+    }
+
+    .advantages_item{
+        align-items: center;
+        max-width: 220px;
+    }
+
+    .reviews_wrap{
+        width: 100%;
+    }
+
+    .reviews_forms{
+        width: 100%;
+    }
+
+    .white_button{
+        margin-top: 15px;
+    }
+
+    .main_header{
+        padding-top: 15px;
+    }
+
+    .copyright_right_colum{
+        justify-content: center;
+    }
+
+    .review_items_name img{
+        margin-right: 0;
+    }
+
+    .review_items_name img{
+        margin-right: 0px;
+    }
+
+    .maps_position img{
+        width: 100%;
+    }
+
+    .review_video{
+        right: 0px;
+    }
+
+    .reviews {
+        padding: 0px 0 25px;
+        padding-top: 25px;
+    }
+
+    .review_name{
+        margin-left: 15px;
+    }
+
+    .gym_sesction{
+        background-position: initial;
+    }
+
+    /*---TEAM-PAGE---*/
+    .team_title_section_wrap{
+        min-height: 175px;
+        background-position: 50% 29px;
+    }
+
+    .other_team {
+        margin-top: 275px;
+    }
+
+    .team_title_section_wrap{
+        align-items: flex-start;
+        margin-top: 35px;
+    }
+
+    .coach {
+        max-width: 100%;
+        padding: 25px 40px;
+    }
+
+    /*---PRICE-PAGE---*/
+    .price_title {
+        margin-top: 45px;
+    }
+
+    .price_wrap {
+        background-position: 50% 75px;
+    }
+
+    .price_page_table {
+        padding-top: 460px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 479px) {
+    /*---TEAM-PAGE---*/
+    .team_title_section_wrap{
+        min-height: 175px;
+        background-position: 50% 29px;
+        align-items: flex-start;
+        margin-top: 35px;
+    }
+
+    .coach {
+        max-width: 100%;
+        padding: 25px 40px;
+    }
+
+    .coach_name{
+        font-size: 18px;
+    }
+
+    .coach_position{
+        font-size: 13px;
+    }
+
+    .coach_text{
+        font-size: 14px;
+    }
+
+    .other_team {
+        margin-top: 290px;
+    }
+
+    /*---PRICE-PAGE---*/
+    .price_title {
+        margin-top: 45px;
+    }
+
+    .price_wrap {
+        background-position: 50% 75px;
+    }
+
+    .price_page_table {
+        padding-top: 540px;
+        overflow-x: scroll;
+    }
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+    /*---TEAM-PAGE---*/
+    .team_title_section_wrap{
+        min-height: 175px;
+        background-position: 50% 29px;
+        align-items: flex-start;
+        margin-top: 35px;
+    }
+
+    .coach {
+        max-width: 100%;
+        padding: 25px 24px;
+    }
+
+    .coach_name{
+        font-size: 18px;
+    }
+
+    .coach_position{
+        font-size: 13px;
+    }
+
+    .coach_text{
+        font-size: 14px;
+    }
+
+    .other_team {
+        margin-top: 290px;
+    }
+
+    /*---PRICE-PAGE---*/
+    .price_title {
+        margin-top: 45px;
+    }
+
+    .price_wrap {
+        background-position: 50% 75px;
+    }
+
+    .price_page_table {
+        padding-top: 570px;
+        overflow-x: scroll;
+    }
+}
+
+
+/*Медиазапросы от 0*/
+@media (min-width: 0) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 0) and (max-width: 991px) {
+    .main_menu.dn-1199 {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .main_logo {
+        justify-content: center;
+    }
+
+    .header_button_wrap {
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 0) and (max-width: 767px) {
+
+}
+
+@media (min-width: 0) and (max-width: 575px) {
+
+}
+
+@media (min-width: 0) and (max-width: 479px) {
+
+    .main_header{
+        margin-bottom: 40px;
+        min-height: 109px;
+    }
+
+    .main_logo a{
+        flex-direction: column;
+    }
+
+    .main_logo a>img{
+        margin: 0;
+    }
+
+    .logo_desk{
+        border: 0;
+        padding-left: 0;
+    }
+
+    .schedule{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .first_section_content{
+        width: 100%;
+        max-width: 100%;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    .section_slogan_text{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .human{
+        display: none;
+    }
+
+    .first_section_autor {
+        max-width: 245px;
+    }
+
+    .cost_proposal_wrap{
+        top:-180px;
+    }
+
+    .cost_proposal_content{
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .toggle-button{
+        top: 36px;
+        right: 15px;
+        z-index: 150;
+    }
+
+    .body_course_left{
+        display: none;
+    }
+
+    .body_course_description{
+        background: none;
+    }
+
+    .course_description_text{
+        margin-top: 285px;
+    }
+
+    .course_description_text p{
+        font-size: 20px;
+    }
+
+    .gymnastiks_section{
+        margin-top: 60px;
+        background: none;
+    }
+
+    .gymnastiks_section_item{
+        width: 100%;
+        max-width: 70%;
+        justify-content: center;
+    }
+
+    .gymnastiks_skeleton > img{
+        bottom: -125px;
+        width: 75%;
+    }
+
+    .advantages_item{
+        align-items: center;
+        max-width: 220px;
+    }
+
+    .reviews_wrap{
+        width: 100%;
+    }
+
+    .reviews_forms{
+        width: 100%;
+    }
+
+    .white_button{
+        margin-top: 15px;
+    }
+
+    .main_header{
+        padding-top: 15px;
+    }
+
+    .copyright_right_colum{
+        justify-content: center;
+    }
+
+    .review_items_name img{
+        margin-right: 0;
+    }
+
+    .review_items_name img{
+        margin-right: 0px;
+    }
+
+    .maps_position img{
+        width: 100%;
+    }
+
+    .review_video {
+        right: -25px;
+        top: -45px;
+    }
+
+    .reviews {
+        padding: 0px 0 25px;
+        padding-top: 25px;
+    }
+
+    .review_name{
+        margin-left: 15px;
+    }
+
+    .gym_sesction{
+        background-position: initial;
+    }
+
+    .course_medical_wrap{
+        padding-left: 9px;
+    }
+
+    .justification_title p{
+        font-size: 17px;
+    }
+
+    .justification-arrow{
+        right: 15px;
+        top:35px;
+    }
+
+    .gymnastiks_section_title{
+        font-size: 22px;
+    }
+
+    .gymnastiks_section_list{
+        margin-top: 35px;
+    }
+
+    .gymnastiks_skeleton > img {
+        bottom: -125px;
+        width: 96%;
+    }
+
+    .advantages_section_wrap{
+        justify-content: space-around;
+        margin-top: 45px;
+    }
+
+    .form_question_second_slogan{
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 0) and (max-width: 319px) {
+
+}

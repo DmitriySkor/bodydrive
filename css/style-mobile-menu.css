@@ -1,0 +1,118 @@
+/* ==================================== */
+
+
+/*		  	  Navigaton Menu		
+/* ==================================== */
+
+.menu-wrap {
+    background-color: #232323;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 280px;
+    margin-left: -280px;
+    font-size: 1em;
+    font-weight: 700;
+    overflow: auto;
+    transition: .25s;
+    z-index: 140;
+}
+
+.menu-show {
+    margin-left: 0;
+    /*box-shadow: 4px 2px 15px 1px #B9ADAD;*/
+}
+
+.menu-sidebar {
+    margin: 75px 0 80px 10px;
+    position: relative;
+    top: 70px;
+}
+
+
+/*Hamburger Button*/
+
+.toggle-button {
+    position: fixed;
+    top: 131px;
+    right: 26px;
+    padding: 4px;
+    transition: .25s;
+    z-index: 200;
+    content: url("../img/menu_mob_open.png");
+    cursor: pointer;
+
+}
+
+.toggle-button.button-open {
+    content: url("../img/menu_mob_close.png");
+    cursor: pointer;
+}
+
+.toggle-button:hover {
+    cursor: pointer;
+}
+
+.button-open {
+    left: 230px;
+    top:20px;
+}
+
+
+/*--------------------------------------------------------------------------------------*/
+
+.menu.menu-mobile-li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: transparent;
+}
+
+.menu.menu-mobile-li li {
+    list-style-type: none;
+    padding: 15px 0;
+}
+
+.menu.menu-mobile-li a {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.logo.logo_mobile {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.mobile_position {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 12px;
+}
+
+.mobile_position img {
+    width: 14px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.mobile_position.p1 {
+    margin-top: 270px;
+}
+
+.mobile_social {
+    padding: 20px;
+}
+
+.mobile_social a:first-child {
+    margin-right: 20px;
+}
+
+.logo_mobile {
+    opacity: 0;
+}

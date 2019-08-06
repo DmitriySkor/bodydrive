@@ -1,0 +1,1081 @@
+html body {
+    overflow-x: hidden;
+}
+
+button:active,
+button:focus {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.main_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 109px;
+}
+
+.main_logo {
+    margin-top: 10px;
+}
+
+.main_logo a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main_logo img {
+    margin-right: 18px;
+}
+
+.main_logo p {
+    margin: 0;
+}
+
+.logo_desk {
+    font-family: 'PF Din Text Cond Pro';
+    font-weight: 300;
+    font-size: 16px;
+    font-style: normal;
+    border-left: 1px solid #d6d6d6;
+    padding-left: 18px;
+}
+
+.header_button_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.red_button {
+    color: #fff;
+    font-family: 'Axiforma';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 13px;
+    border-radius: 25px;
+    border: 1px solid rgb(240, 59, 45);
+    background-color: rgb(240, 59, 45);
+    box-shadow: 0px 8px 30px 0px rgba(240, 59, 45, 0.36);
+    width: 222px;
+    height: 48px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.red_button:hover {
+    color: rgb(240, 59, 45);
+    background-color: #fff;
+    border-color: rgb(240, 59, 45);
+    transition: 0.5s ease;
+}
+
+.white_button {
+    color: #000;
+    font-family: 'Axiforma', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 13px;
+    border-radius: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 30px 0px rgba(204, 204, 204, 0.36);
+    width: 222px;
+    height: 48px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.white_button:hover {
+    color: rgb(240, 59, 45);
+    background-color: #fff;
+    border-color: rgb(240, 59, 45);
+    transition: 0.5s ease;
+}
+
+.menu_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #40ddcd;
+    height: 78px;
+    border-bottom: 1px solid #7ae7dc;
+}
+
+.menu_section_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+    height: 78px;
+    border-top: 1px solid #dadada;
+}
+
+.main_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.main_menu a {
+    color: #fff;
+    font-family: 'PF DinText Pro';
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.menu_section_footer .main_menu a {
+    color: #9e9e9e;
+    font-family: 'PF DinText Pro';
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.main_menu a:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #fff;
+    transition: width .3s ease-in-out;
+}
+
+.main_menu a:hover:after,
+.main_menu a:focus:after {
+    width: 100%;
+    text-decoration: none;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.schedule {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.menu_section_footer .schedule a {
+    color: #40ddcd;
+}
+
+.schedule a {
+    color: #fff;
+    font-family: 'PF DinText Pro';
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.schedule a:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #fff;
+    transition: width .3s ease-in-out;
+}
+
+.schedule a:hover:after,
+.schedule a:focus:after {
+    width: 100%;
+    text-decoration: none;
+}
+
+.schedule img {
+    margin-left: 20px;
+}
+
+.first_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #40ddcd;
+    padding-bottom: 200px;
+    position: relative;
+}
+
+.first_section_content {
+    width: 100%;
+    max-width: 526px;
+    height: 345px;
+    margin-top: 90px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.first_section_content::before {
+    content: " ";
+    position: absolute;
+    top: -5px;
+    right: 11px;
+    background: url(/img/quote.png);
+    display: block;
+    height: 70px;
+    width: 90px;
+}
+
+
+.section_slogan_text {
+    font-family: 'PF DinText Pro';
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.3;
+    position: relative;
+    z-index: 100;
+}
+
+.first_section_autor {
+    margin-top: 50px;
+}
+
+.first_section_autor p {
+    margin: 0;
+}
+
+.autor_name {
+    font-family: 'Axiforma';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+}
+
+.autor_post {
+    font-family: 'PF DinText Pro';
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+}
+
+.human_wrap {
+    width: 100%;
+    position: relative;
+}
+
+.human {
+    position: absolute;
+    right: -80px;
+    top: -20px;
+    width: 100%;
+    max-width: 556px;
+    height: auto;
+}
+
+.cost_proposal_wrap {
+    width: calc(100% - 30px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 110;
+    box-shadow: 0px 10px 48px 0px rgba(0, 0, 0, 0.08);
+    position: absolute;
+    top: -100px;
+}
+
+.cost_proposal_content {
+    background-color: rgb(255, 255, 255);
+    max-width: 50%;
+    padding-left: 55px;
+    padding-right: 60px;
+    border-right: 1px solid #ebebeb;
+}
+
+.proposal_content_title {
+    font-family: 'Axiforma', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #40ddcd;
+    padding-top: 40px;
+}
+
+.proposal_content_text {
+    font-family: 'PF DinText Pro', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #b0b0b0;
+}
+
+.proposal_content_price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+.content_price_sum {
+    font-size: 24px;
+    font-family: 'Axiforma';
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+
+.content_price_btn {
+    font-family: 'PF DinText Pro';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    border-radius: 15px;
+    border: 1px solid #fbd0cd;
+    background: #fff;
+    color: #f03b2d;
+    width: 120px;
+    height: 34px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.content_price_btn:hover img {
+    padding-left: 5px;
+    transition: 0.5s ease;
+}
+
+.body_course_pic{
+    width: 100%;
+    height: 100%;
+}
+
+.body_course_description {
+    margin-top: 300px;
+    background-image: url("../img/dotted_bg.png ");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.course_description_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.course_description_text p {
+    font-size: 24px;
+    color: #000;
+    font-family: 'PF DinText Pro';
+    font-weight: 100;
+    font-style: normal;
+}
+
+.course_medical_wrap {
+    border: 1px solid #dedede;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 553px;
+    min-height: 230px;
+    padding-left: 42px;
+    padding-top: 41px;
+    padding-bottom: 30px;
+    margin-top: 33px;
+}
+
+.justification_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.justification_title p {
+    color: #40ddcd;
+    font-size: 20px;
+    font-family: 'Axiforma';
+    font-weight: bold;
+    font-style: normal;
+    max-width: 350px;
+    margin: 0;
+    margin-left: 35px;
+}
+
+.justification-arrow {
+    position: absolute;
+    right: 45px;
+}
+
+.autor_justification {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.autor_justification_desk {
+    margin-left: 35px;
+}
+
+.autor_justification_name {
+    font-size: 16px;
+    font-family: 'PF DinText Pro';
+    font-weight: 100;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.autor_justification_position {
+    font-size: 13px;
+    font-family: 'PF DinText Pro';
+    font-weight: 100;
+    font-style: normal;
+    color: #a8a8a8;
+    max-width: 380px;
+}
+
+.gymnastiks_section {
+    margin-top: 160px;
+    padding-bottom: 110px;
+    background-image: url("../img/dotted_bg.png ");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.gymnastiks_section_wrap {
+    position: relative;
+
+}
+
+.gymnastiks_section_title {
+    font-family: 'Axiforma';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 550px;
+    line-height: 1.4;
+}
+
+.gymnastiks_section_list {
+    margin-top: 70px;
+    width: 100%;
+    max-width: 710px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gymnastiks_section_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    min-height: 40px;
+    margin-bottom: 40px;
+}
+
+.gymnastiks_section_item img {
+    width: 100%;
+    max-width: 16px;
+    height: auto;
+}
+
+.gymnastiks_item_text {
+    font-size: 16px;
+    font-family: 'PF DinText Pro';
+    font-weight: 100;
+    font-style: normal;
+    margin-left: 20px;
+    margin-bottom: 0;
+    color: #000000;
+}
+
+.gymnastiks_btn {
+    margin-top: 40px;
+}
+
+.gymnastiks_skeleton {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.gymnastiks_skeleton > img {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    bottom: -158px;
+    width: 100%;
+    max-width: 896px;
+}
+
+.advantages_section {
+    background-color: #f3f3f3;
+    padding-bottom: 80px;
+}
+
+.advantages_section_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.advantages_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /*margin-right: 80px;*/
+    width: 100%;
+    max-width: 264px;
+}
+
+.adva_item_img {
+    width: 100%;
+    max-width: 65px;
+    height: 100%;
+    max-height: 65px;
+    margin-bottom: 50px;
+}
+
+.adv_item_title {
+    font-size: 18px;
+    font-family: 'Axiforma';
+    font-weight: 700;
+    font-style: normal;
+}
+
+.adv_item_description {
+    font-size: 14px;
+    font-family: 'PF DinText Pro';
+    font-weight: 100;
+    font-style: normal;
+}
+
+.gym_sesction {
+    background-image: url("../img/gym_section_bg.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.gym_section_wrap {
+    margin-top: 182px;
+    margin-bottom: 198px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.gym_section_title {
+    font-size: 30px;
+    font-family: 'Axiforma';
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+}
+
+.see_photo {
+    font-family: 'PF DinText Pro';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14px;
+    color: #40ddcd;
+    background: transparent;
+    border: 1px solid #406663;
+    border-radius: 15px;
+    width: 146px;
+    height: 34px;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+.see_photo > img {
+    margin-left: 2px;
+    transition: 0.5s ease;
+}
+
+.see_photo > img:hover {
+    margin-left: 8px;
+    transition: 0.5s ease;
+}
+
+
+/*reviews*/
+.reviews {
+    padding: 90px 0 100px;
+    background-image: url(../img/pen_bg.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 744px;
+    background-size: 744px;
+    background-position: calc(15% + 744px) calc(100% - -115px);
+}
+
+.reviews_title {
+    font-size: 30px;
+    font-family: "Axiforma", sans-serif;
+    color: rgb(1, 1, 1);
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+
+.contain_reviews {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+}
+
+.reviews_wrap {
+    border: 1px solid #ebebeb;
+    border-radius: 6px;
+    padding: 45px 40px;
+    margin: 0 15px 30px;
+    width: calc(33.3333% - 30px);
+}
+
+.review_items_name {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.review_items_name img {
+    width: 48px;
+    height: auto;
+    margin-right: 25px;
+}
+
+.review_name {
+    font-family: 'Axiforma', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    color: #010101;
+    margin-bottom: 0;
+}
+
+.review_items_desk {
+    font-family: 'PF DinText Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.review_video {
+    position: absolute;
+    top: -20px;
+    right: -80px;
+    width: 94px;
+    height: 94px;
+}
+
+.review_video a img {
+    width: 94px;
+    height: auto;
+}
+
+.reviews_forms {
+    /*border: 1px solid #ebebeb;*/
+    border-radius: 6px;
+    padding: 45px 40px;
+    margin: 0 15px 30px;
+    width: calc(66.6666% - 30px);
+}
+
+form.reviews_forms_f .form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #ccc;
+}
+
+form.reviews_forms_f .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+form.reviews_forms_f textarea.form-control {
+    min-height: 115px;
+}
+
+form.reviews_forms_f h2 {
+    font-size: 18px;
+    font-family: "Axiforma", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.333;
+}
+
+
+/*question*/
+.question {
+    padding: 70px 0;
+    background-color: #40ddcd;
+}
+
+.form_question_first_slogan {
+    font-size: 18px;
+    font-family: "Axiforma", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+
+.form_question_second_slogan {
+    font-size: 30px;
+    font-family: "Axiforma", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+
+
+form.form_question .form-control {
+    display: block;
+    width: calc(100% - 15px);
+    height: calc(2.25rem + 2px);
+    padding: .375rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border-bottom: 1px solid #fff;
+    margin-right: 15px;
+}
+
+form.form_question .form-control:focus {
+    box-shadow: none;
+}
+
+form.form_question .form-control::-webkit-input-placeholder {
+    color: #fff;
+}
+
+form.form_question .form-control::-moz-placeholder {
+    color: #fff;
+}
+
+form.form_question .form-control:-moz-placeholder {
+    color: #fff;
+}
+
+form.form_question .form-control:-ms-input-placeholder {
+    color: #fff;
+}
+
+.maps {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maps iframe {
+    width: 100%;
+    height: 645px;
+}
+
+.maps_position {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.copyright {
+    background-color: #eaeaea;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.copyright_left_colum {
+    display: flex;
+    align-items: center;
+}
+
+.copyright_text {
+    font-size: 14px;
+    font-family: "PF DinText Pro", sans-serif;
+    color: rgba(0, 0, 0, 0.302);
+    line-height: 1.2;
+    margin-right: 30px;
+    margin-top: 7px;
+}
+
+.copyright_link a {
+    font-size: 14px;
+    font-family: "PF DinText Pro", sans-serif;
+    color: rgba(0, 0, 0, 0.302);
+    line-height: 1.2;
+    margin-right: 30px;
+    text-decoration: underline;
+}
+
+.copyright_right_colum {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+    font-family: "PF DinText Pro", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    margin-top: 7px;
+}
+
+.copyright_right_colum a {
+    font-size: 14px;
+    font-family: "PF DinText Pro", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+
+/*---TEAM---*/
+
+.team_title_section{
+    background-color: #40ddcd;
+}
+
+.team_title_section_wrap{
+    background-image: url("../img/black_dotted.png");
+    background-repeat: no-repeat;
+    background-position: 50% 153px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 303px;
+}
+
+.team_title{
+   color: #fff;
+    font-family: 'PF DinText Pro';
+    font-weight: 700;
+    text-align: center;
+}
+
+.team_section_wrap{
+    position: relative;
+    width: 100%;
+}
+
+.team_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top_team {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 48px 0px rgba(0, 0, 0, 0.08);
+    position: absolute;
+    min-height: 280px;
+    z-index: 10;
+    top: -67px;
+}
+
+
+.coach{
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-right: 1px solid #ebebeb;
+    padding: 51px 60px;
+}
+
+.coach_name{
+    font-size: 30px;
+    color: #40ddcd;
+    font-family: 'Axiforma';
+    font-weight: bold;
+}
+
+.coach_position{
+    font-family: 'Axiforma';
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.coach_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coach_photo{
+    margin-right: 25px;
+}
+
+.coach_name{
+    margin-bottom: 0;
+}
+
+.coach_text{
+    font-family: 'PF DinText Pro';
+    font-weight: 300;
+    color: #b0b0b0;
+}
+
+.other_team{
+    margin-top: 225px;
+}
+
+.other_team>.coach{
+border-right: 0px;
+}
+
+
+/*PRICE PAGE*/
+.price_wrap{
+    background-image: url("../img/black_dotted.png");
+    background-repeat: no-repeat;
+    background-position: 50% 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 303px;
+}
+
+.price_title{
+    margin-top: 80px;
+}
+
+.price_page_table {
+    padding-top: 240px;
+}
+
+.table_title{
+    font-family: 'PF DinText Pro';
+    font-weight: 300;
+    color: #b4b4b4;
+}
+
+table thead .table_title{
+    border-top: 1px solid transparent;
+    border-bottom: 2px solid #40ddcd;
+}
+
+.table tbody{
+    font-family: 'Axiforma';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.table td, .table th{
+    padding: 1.2rem;
+}
+
+.test_lesson{
+    background: url("../img/test_lesson_bg.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.test_lesson_wrap{
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+
+.test_lesson_wrap p{
+    font-family: 'Axiforma';
+    font-weight: 300;
+    font-style: normal;
+    color:#fff;
+}
+
+.lesson_sub_text{
+    font-size: 18px;
+}
+
+.lesson_main_text{
+    font-size: 30px;
+}
+
+.lesson_blue{
+    color:#40ddcd;
+}
+
+.footer_parts_wrap{
+    background-color: #f3f3f3;
+}
+
+/*new style */
+
+.lesson_form input{
+    background: transparent;
+    border: 0;
+    color: #fff;
+    border-bottom: 1px solid #89787c;
+    width: 25%;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.lesson_form input::-webkit-input-placeholder { color: #ffffff;}
+.lesson_form input::-ms-input-placeholder { color: #ffffff;}
+.lesson_form input::-ms-input-placeholder { color: #ffffff;}
+.lesson_form input::placeholder { color: #ffffff;}
