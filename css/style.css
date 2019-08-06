@@ -1113,3 +1113,42 @@ table thead .table_title{
     height: 60px;
     width: 68px;
 }
+
+.about__first_section_text:after{
+    content: " ";
+    position: absolute;
+    right: 0;
+    bottom: -530px;
+    background: url(/img/about-fs-img.png) no-repeat;
+    background-size: cover;
+    display: block;
+    height: 502px;
+    width: 100%;
+    max-width: 653px;
+}
+
+.about__gym_section_title{
+    max-width: 620px;
+}
+
+.gym_lesson{
+    font-family: "Axiforma Light";
+    font-size: 96px;
+    line-height: 0.7;
+    color: #40ddcd;
+    margin-bottom: 110px;
+}
+
+.gym_lesson span{
+    font-family: "Axiforma Light";
+    font-size: 56px;
+}
+
+.gym_lesson_sub_title{
+    font-family: "PF DinText Pro";
+    font-weight: 100;
+    font-size: 20px;
+    color: #a8a8a8;
+    line-height: 1;
+
+}

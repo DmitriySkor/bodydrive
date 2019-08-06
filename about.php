@@ -21,12 +21,19 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="gymnastiks_skeleton">
+                        <div class="gym_lesson">
+                            <p class="gym_lesson_title">
+                            1-2 <br> <span>занятия</span>
+                            </p>
+                            <p class="gym_lesson_sub_title">
+                                Практика показала, что эффект заметен<br>
+                                уже после одного-двух занятий.
+                            </p>
+                        </div>
                         <img src="img/skletonn.png" alt="img">
                         <div class="gymnastiks_section_wrap">
-                            <h2 class="gymnastiks_section_title">
-                                Гимнастика направлена на общее
-                                оздоровление и укрепление
-                                организма
+                            <h2 class="gymnastiks_section_title about__gym_section_title">
+                                Здоровый позвоночник - стройное тело!
                             </h2>
                             <div class="gymnastiks_section_list">
                                 <div class="gymnastiks_section_item">
