@@ -1150,5 +1150,79 @@ table thead .table_title{
     font-size: 20px;
     color: #a8a8a8;
     line-height: 1;
+}
 
+.complex_img_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.complex_img{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 582px;
+    height: auto;
+    padding: 110px 20px 70px 20px;
+}
+
+.about__complex_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.about__complex_text>p{
+    width: 75%;
+    font-family: "PF DinText Pro";
+    font-weight: 100;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.about__advantages{
+    background-color: #f3f3f3;
+}
+
+.about__advantage_one{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 0;
+    border-bottom: 1px solid #d5d5d5;
+
+}
+
+.about_advantage_title{
+    font-family: "Axiforma", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #c1c1c1;
+    padding-right: 40px;
+    line-height: 1;
+}
+
+.about_advantage_text{
+    font-family: "Axiforma", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    width: 90%;
+}
+
+.about__advantage_img{
+    margin-bottom: 45px;
+}
+
+.about__advantage_item{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
 }

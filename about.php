@@ -86,6 +86,61 @@
         </div>
     </div>
 
+<div class="about__complex">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="complex_img_wrap">
+            <img class="complex_img" src="img/about-complex.png" alt="img">
+                </div>
+            <div class="about__complex_text">
+                <p>Комплекс Body Drive объединил в себе и традиционные элементы лечебной физкультуры,
+                и фундаментальные основы китайской медицины, йоги и других восточных практик, что
+                делает ее уникальной по своим свойствам и оказываемому эффекту.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="about__advantages">
+    <div class="container">
+        <div class="row">
+            <div class="about__advantage_one">
+                <div class="col-md-3">
+                    <p class="about_advantage_title">
+                        Что дает
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <div class="about_advantage_item">
+                    <img class="about__advantage_img" src="img/ico-advantage1.png" alt="img">
+                    <p class="about_advantage_text">
+                        Восстановление двигательной активности
+                    </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="about_advantage_item">
+                    <img class="about__advantage_img" src="img/ico-advantage2.png" alt="img">
+                    <p class="about_advantage_text">
+                        Общее омоложение организма
+                    </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="about_advantage_item">
+                    <img class="about__advantage_img" src="img/ico-advantage3.png" alt="img">
+                    <p class="about_advantage_text">
+                        Повышение потенции даже у пожилых людей
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <?php include 'parts/green_form.php';?>
 <?php include 'parts/footer.php';?>
