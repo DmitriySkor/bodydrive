@@ -156,55 +156,61 @@
                                     <ul>
                                         <li>
                                             <div class="col-md-4">
-                                            <div class="about_advantage_item">
-                                                <img class="about__advantage_img" src="img/ico-advantage1.png" alt="img">
-                                                <p class="about_advantage_text">
-                                                    Избыточный вес
-                                                </p>
-                                            </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                            <div class="about_advantage_item">
-                                                <img class="about__advantage_img" src="img/ico-advantage1.png" alt="img">
-                                                <p class="about_advantage_text">
-                                                    Нарушение осанки
-                                                </p>
-                                            </div>
+                                                <div class="about_advantage_item">
+                                                    <img class="about__advantage_img" src="img/ico-advantage1.png"
+                                                         alt="img">
+                                                    <p class="about_advantage_text">
+                                                        Избыточный вес
+                                                    </p>
+                                                </div>
                                             </div>
                                             <div class="col-md-4">
-                                            <div class="about_advantage_item">
-                                                <img class="about__advantage_img" src="img/ico-advantage1.png" alt="img">
-                                                <p class="about_advantage_text">
-                                                    Боли в спине
-                                                </p>
+                                                <div class="about_advantage_item">
+                                                    <img class="about__advantage_img" src="img/ico-advantage1.png"
+                                                         alt="img">
+                                                    <p class="about_advantage_text">
+                                                        Нарушение осанки
+                                                    </p>
+                                                </div>
                                             </div>
+                                            <div class="col-md-4">
+                                                <div class="about_advantage_item">
+                                                    <img class="about__advantage_img" src="img/ico-advantage1.png"
+                                                         alt="img">
+                                                    <p class="about_advantage_text">
+                                                        Боли в спине
+                                                    </p>
+                                                </div>
                                             </div>
                                         </li>
 
                                         <li>
                                             <div class="col-md-4">
-                                            <div class="about_advantage_item">
-                                                <img class="about__advantage_img" src="img/ico-advantage1.png" alt="img">
-                                                <p class="about_advantage_text">
-                                                    Головные боли
-                                                </p>
-                                            </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                            <div class="about_advantage_item">
-                                                <img class="about__advantage_img" src="img/ico-advantage1.png" alt="img">
-                                                <p class="about_advantage_text">
-                                                    Мышечная слабость
-                                                </p>
-                                            </div>
+                                                <div class="about_advantage_item">
+                                                    <img class="about__advantage_img" src="img/ico-advantage1.png"
+                                                         alt="img">
+                                                    <p class="about_advantage_text">
+                                                        Головные боли
+                                                    </p>
+                                                </div>
                                             </div>
                                             <div class="col-md-4">
-                                            <div class="about_advantage_item">
-                                                <img class="about__advantage_img" src="img/ico-advantage1.png" alt="img">
-                                                <p class="about_advantage_text">
-                                                    Депрессия и хроническая усталость
-                                                </p>
+                                                <div class="about_advantage_item">
+                                                    <img class="about__advantage_img" src="img/ico-advantage1.png"
+                                                         alt="img">
+                                                    <p class="about_advantage_text">
+                                                        Мышечная слабость
+                                                    </p>
+                                                </div>
                                             </div>
+                                            <div class="col-md-4">
+                                                <div class="about_advantage_item">
+                                                    <img class="about__advantage_img" src="img/ico-advantage1.png"
+                                                         alt="img">
+                                                    <p class="about_advantage_text">
+                                                        Депрессия и хроническая усталость
+                                                    </p>
+                                                </div>
                                             </div>
                                         </li>
                                     </ul>
@@ -266,6 +272,55 @@
                             </p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="about__gymnastic_drive">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="gymnastic_drive_left_content">
+                    <p class="gymnastic_left_text">
+                        Гимнастика направлена на общее оздоровление и укрепление организма.
+                        Главным компонентом является работа с телом, активизирующая "спящие"
+                        внутренние процессы за счет воздействия на системы мышц, связок и
+                        сухожилий, которые абсолютно не задействованы в обычной жизни и практически
+                        не затрагиваются во время традиционных занятий спортом.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="gymnastic_drive_right_content">
+                    <button class="see_reviews">
+                        Смотреть отзывы
+                        <img src="/img/gym_arrow.png" alt="img">
+                    </button>
+                    <p class="gymnastic_right_text">
+                        Название гимнастики также не случайно. Практически все участники курсов коротко
+                        описывают свое состояние после занятий как "драйв во всем теле!".
+                        Именно эти ощущения и стали поводом назвать данный комплекс упражнений Body Drive.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="about__author_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+            <p class="author_name">
+                <span>Автор методики</span><br>
+                Андрей Мокрица
+            </p>
+            </div>
+            <div class="col-md-6">
+                <div class="about_author_title">
+                    <p>Драйв во всем теле!</p>
                 </div>
             </div>
         </div>
